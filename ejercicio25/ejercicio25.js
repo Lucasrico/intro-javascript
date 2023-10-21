@@ -15,6 +15,7 @@ function crearCuadrado(ancho) {
   const salto = "\n";
 
   // funcion que modifique el valor de la figura para ir pintando sobre ella
+  //parametros: (figura sobre la que queremos pintar, caracter a introducir, veces que lo introducimos)
 
   function pintar(figura, ch, times) {
     for (i = 0; i < times; i++) {
