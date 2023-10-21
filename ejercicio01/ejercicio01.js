@@ -7,6 +7,10 @@
 
 function swapVariables(a, b) {
   //Escribe tu codigo aqui
+  let aux = a;
+  a = b;
+  b = aux;
+  return a.toString() + b.toString();
 }
 
 module.exports = { swapVariables };
