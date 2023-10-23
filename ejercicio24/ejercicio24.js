@@ -13,8 +13,10 @@
  *  Si todo es correcto el algorimo debera imprimir 'NombreAlumno tu nota final es de NotaFinal sobre 10'
  */
 
-function notaAlumno() {
-  //Escribe tu codigo aqui
+//n1 10%, n2 50%, n3 40%
+
+function notaAlumno(nombre,n1,n2,n3) {
+  
 }
 
 module.exports = { notaAlumno };

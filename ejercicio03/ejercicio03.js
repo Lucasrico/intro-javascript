@@ -6,7 +6,7 @@
  */
 
 function compareThreeNumbers() {
-  //Escribe tu codigo aqui
+
 }
 
 module.exports = { compareThreeNumbers };
