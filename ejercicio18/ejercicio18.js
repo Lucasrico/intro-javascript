@@ -7,8 +7,10 @@
  *  La funcion retornara la suma
  */
 
-function sumaNPrimerosNumerosPares() {
-  //Escribe tu codigo aqui
+function sumaNPrimerosNumerosPares(n) {
+  let suma = 0;
+  for (let i = 0; i < n; i++) {}
+  return suma;
 }
 
 module.exports = { sumaNPrimerosNumerosPares };
