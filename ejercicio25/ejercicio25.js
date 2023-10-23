@@ -46,6 +46,6 @@ function crearCuadrado(ancho) {
   return cuadrado;
 }
 
-console.log(crearCuadrado(80));
+console.log(crearCuadrado(6));
 
 module.exports = { crearCuadrado };
