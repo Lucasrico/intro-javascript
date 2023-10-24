@@ -10,8 +10,9 @@
  *  El año debe ser mayor que 0. (Recuerda la estructura switch).
  */
 
-function fechaIntroducida() {
-  //Escribe tu codigo aqui
+function fechaIntroducida(d, m, y) {
+  let meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+
 }
 
 module.exports = { fechaIntroducida };

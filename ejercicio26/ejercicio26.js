@@ -5,7 +5,7 @@
  */
 
 function cuboNumerosArray() {
-  //Escribe tu codigo aqui
+
 }
 
 module.exports = { cuboNumerosArray };
