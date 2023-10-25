@@ -5,8 +5,7 @@
  *  El algoritmo debera retornar el nuevo salario.
  */
 
-function incrementarSueldo() {
- //Escribe tu codigo aqui
+function incrementarSueldo(sueldo) {
 }
 
 module.exports = { incrementarSueldo };

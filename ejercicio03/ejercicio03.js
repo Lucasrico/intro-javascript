@@ -5,7 +5,16 @@
  * Recuerda usar la estructura condicional If.
  */
 
-function compareThreeNumbers() {
+function compareThreeNumbers(a, b, c) {
+    if (a == b && b == c) {
+        return "iguales"
+    } else if (a >= b) {
+        if (a > c) {
+            return a;
+        } else return b;
+    } else if (b >= c) {
+        return b;
+    } else return c;
 
 }
 
