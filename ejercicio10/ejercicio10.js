@@ -13,8 +13,36 @@
  *  trabajador podria no entrar en ninguna categoria.
  */
 
-function nuevoSalario() {
-  //Escribe tu codigo aqui
+
+//En el test el orden de los parametros es (salario, categoria), lo ponemos asi.
+
+function nuevoSalario(salario, categoria) {
+  let nuevosalario = 0;
+  switch (categoria) {
+    case 1:
+      nuevosalario = salario * 1.15;
+      break;
+    case 2:
+      nuevosalario = salario * 1.10;
+
+      break;
+    case 3:
+      nuevosalario = salario * 1.06;
+
+      break;
+    case 4:
+      nuevosalario = salario * 1.03;
+
+      break;
+
+    default:
+      nuevosalario = salario;
+      break;
+  }
+
+  return nuevosalario;
 }
+
+//Se podria hacer un return en cada case, no hace falta la variable.
 
 module.exports = { nuevoSalario };

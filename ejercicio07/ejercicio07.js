@@ -9,7 +9,7 @@
 function cambioCliente(entregado, coste) {
     if (entregado < coste) {
         return "pago insuficiente";
-    } else return entregado - coste;
+    } else return entregado - coste; //La diferencia. Siempre sale positivo porque hemos evaluado que entregado>coste.
 }
 
 module.exports = { cambioCliente };

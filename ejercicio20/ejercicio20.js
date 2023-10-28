@@ -10,8 +10,11 @@
  *  del programa.
  */
 
-function adivinarContrasena() {
-  //Escribe tu codigo aqui
+function adivinarContrasena(claves) {
+  for (let i = 0; i < claves.length; i++) {
+
+
+  }
 }
 
 module.exports = { adivinarContrasena };

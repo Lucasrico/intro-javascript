@@ -7,8 +7,12 @@
  *  diciendo 'Debes introducir sólo números. Inténtalo de nuevo'
  */
 
-function notaMedia() {
-  //Escribe tu codigo aqui
+function notaMedia(a, b, c, d, e) {
+  let media = ((a + b + c + d + e) / 5);
+  if (!isNaN(media)) {
+    return media >= 5 ? `${media} aprobado` : `${media} suspenso`; // Misma idea que el return del ej08
+  } else return "Debes introducir solo numeros. Intentalo de nuevo"
 }
 
+console.log(notaMedia(4, 5, 4, 5, 4))
 module.exports = { notaMedia };

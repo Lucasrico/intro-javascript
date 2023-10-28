@@ -5,8 +5,9 @@
  *  `El indice es X y su valor es Y`
  */
 
-function arrayIndex() {
-  //Escribe tu codigo aqui
+function arrayIndex(array) {
+
+
 }
 
 module.exports = { arrayIndex };
