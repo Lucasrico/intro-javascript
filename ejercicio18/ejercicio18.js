@@ -7,13 +7,18 @@
  *  La funcion retornara la suma
  */
 
-function sumaNPrimerosNumerosPares(n) {
-  let suma = 0;
-  for (let i = 0; i < n; i++) {
-
-    //
-  }
-  return suma;
+//A MEDIAS SIN TERMINAR PROBANDO COSAS
+function sumaPares(n) {
+  suma = 0;
+  for (let i = 2; i < n + 2; i++) {
+    if (i % 2 == 0) {
+      suma += i;
+    }
+  } return suma;
 }
+console.log(sumaPares(4))
 
-module.exports = { sumaNPrimerosNumerosPares };
+function sumaNPrimerosNumerosPares(n) {
+  return sumaPares(n) - n
+}
+//module.exports = { sumaNPrimerosNumerosPares };
