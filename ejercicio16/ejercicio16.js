@@ -6,7 +6,7 @@
  */
 
 function cuadraroNumerosNaturales() {
-  //Escribe tu codigo aqui
+
 }
 
 module.exports = { cuadraroNumerosNaturales };
