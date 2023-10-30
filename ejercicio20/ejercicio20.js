@@ -10,11 +10,16 @@
  *  del programa.
  */
 
-function adivinarContrasena(claves) {
-  for (let i = 0; i < claves.length; i++) {
+
+//Incompleto 
 
 
+function adivinarContrasena(array, clave) {
+  if (array.includes(clave)) {
+    console.log("Contraseña correcta, bienvenido");
   }
+  console.log("Contraseña incorrecta, intentelo de nuevo");
+
 }
 
 module.exports = { adivinarContrasena };

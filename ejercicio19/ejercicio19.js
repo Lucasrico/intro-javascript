@@ -5,8 +5,15 @@
  *  el usuario no insertará numeros negativos.
  */
 
-function mediaArrayHastaMenosUno() {
-  //Escribe tu codigo aqui
+function mediaArrayHastaMenosUno(array) {
+  let suma = 0;
+  let i = 0;
+  while (array[i] != -1) {
+    suma += array[i];
+    i++;
+  }
+
+  return suma / i;
 }
 
 module.exports = { mediaArrayHastaMenosUno };
