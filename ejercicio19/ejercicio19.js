@@ -12,8 +12,15 @@ function mediaArrayHastaMenosUno(array) {
     suma += array[i];
     i++;
   }
+  //Hacemos un return de suma / i, pero
+  // hacemos la excepcion de que si i = 0, el return sea 0 siempre
 
-  return suma / i;
-}
+  // if (i == 0) {
+  //   return 0;
+  // } else return suma / i;
 
-module.exports = { mediaArrayHastaMenosUno };
+  // Con condicional ternario:
+
+  return i == 0 ? 0 : suma / i;
+
+  module.exports = { mediaArrayHastaMenosUno };
