@@ -22,5 +22,6 @@ function mediaArrayHastaMenosUno(array) {
   // Con condicional ternario:
 
   return i == 0 ? 0 : suma / i;
+}
 
-  module.exports = { mediaArrayHastaMenosUno };
+module.exports = { mediaArrayHastaMenosUno };
