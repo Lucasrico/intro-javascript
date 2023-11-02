@@ -11,14 +11,15 @@
  */
 
 function fechaIntroducida(d, m, y) {
-  let meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
-  fechaok = false;
-  for (let i = 0; i < meses.length; i++) {
-    if (m == meses[i]) {
-      fechaok = 
-    }
+  // let meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+  // fechaok = false;
+  // for (let i = 0; i < meses.length; i++) {
+  //   if (m == meses[i]) {
+  //     fechaok = 
+  //   }
+  // -------- Pero pide con switch ---------
 
-  }
+  // }
 }
 
 module.exports = { fechaIntroducida };
